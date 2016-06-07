@@ -5,6 +5,9 @@ Created on 6 Jun 2016
 '''
 import math
 import numpy as NP
+import numpy as np
+import matplotlib.pyplot as plt
+from  statistics import mean,stdev,variance
 
 import xlrd    
 

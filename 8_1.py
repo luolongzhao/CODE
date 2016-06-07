@@ -63,7 +63,7 @@ def heat_transfer_iteration(v,mu,rho,Cp,lambda,d,Tcurrent,Twall,P,length):
              LowerThreshold= Answer
          answer=(LowerThreshold+HigherThreshold)/2
          
-         Qconvection=h*3.14*(d**2)*(Tpipe=Tcurrent) #Newton's Cooling Theory
+         Qconvection=h*3.14*(d**2)*(Tpipe-Tcurrent) #Newton's Cooling Theory
          Qradiation=sigma*(Tpipe**4-Twall**4)
      print 'Answer of wall temperature T=', answer
 
